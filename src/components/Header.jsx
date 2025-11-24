@@ -39,13 +39,8 @@ const Header = ({ onMenuClick }) => {
           <button className="p-2 rounded-full text-gray-500 hover:bg-gray-100 hover:text-gray-700">
             <BellIcon />
           </button>
-          <a href="#">
-            <img
-              className="h-9 w-9 rounded-full object-cover"
-              src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1061&q=80"
-              alt="User avatar"
-            />
-          </a>
+          <div className="h-9 w-9 rounded-full bg-gray-400 dark:bg-gray-600"></div>
+
         </div>
       </div>
     </header>
