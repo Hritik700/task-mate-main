@@ -1,72 +1,55 @@
-TaskMate
-TaskMate is a smart task management and productivity tracking web application built using React and Tailwind CSS. It helps users plan their daily tasks, monitor progress, and stay consistent through features like productivity charts and a seriousness meter.
+🚀 TaskMate
+A clean, modern task manager built with React + Tailwind
 
-Features
-Add, complete, and track tasks
+TaskMate helps you organize tasks, track productivity, and manage your daily workflow with smart charts and a beautiful UI.
 
-Daily task tracking on the dashboard
+🌟 Features
 
-Productivity chart showing completed tasks over the past 7 days
+✔ Add & complete tasks
+✔ Daily task overview
+✔ 7-day productivity chart
+✔ Seriousness meter (time-based effort score)
+✔ Light/Dark theme
+✔ LocalStorage data saving
+✔ Context API + useReducer for state
 
-Seriousness meter that calculates effort based on time spent
+🧰 Tech Stack
 
-Overview chart showing completed vs pending task ratio
+| Tech             | Description                  |
+| ---------------- | ---------------------------- |
+| **React**        | UI framework                 |
+| **Vite**         | Blazing fast build tool      |
+| **Tailwind CSS** | Modern utility-first styling |
+| **Recharts**     | Charts & graphs              |
+| **Context API**  | Global state management      |
+| **LocalStorage** | Persistent data              |
 
-Local state management using Context API and useReducer
+📁 Project Structure
 
-Tech Stack
-React for frontend development
-
-Tailwind CSS for styling
-
-Context API with useReducer for state management
-
-Recharts library for visual charts
-
-Vite for faster development server
-
-Project Structure
 src/
-components/ - Reusable UI components
-pages/ - Page-level components like Dashboard
-store/ - Central state management using Context
-utils/ - Optional helper functions
-App.jsx - Main App component
-main.jsx - Entry point
+ ├─ components/      # UI components
+ ├─ pages/           # Dashboard, Tasks, Settings, Analytics
+ ├─ store/           # Context + Reducer
+ ├─ App.jsx          # Main layout
+ └─ main.jsx         # Entry point
 
-Setup Instructions
-Clone the repository
-git clone https://github.com/harsh-dev26/task-mate.git
-cd task-mate
+⚡ Setup
 
-Install dependencies
+git clone https://github.com/Hritik700/task-mate-main.git
+cd task-mate-main
 npm install
-
-Start the development server
 npm run dev
+Open: http://localhost:5173
 
-Open the app in your browser at
-http://localhost:5173
+🔮 Upcoming Add-Ons
 
-Planned Features
-Task editing and deletion
+Task editing & deletion
+Labels, categories & priority
+Cloud sync (Firebase / Supabase)
+Mobile responsive improvements
 
-Task labels, categories, or priority levels
+👤 Author
 
-Dark mode support
+Hritik Tiwari
+🔗 GitHub: https://github.com/Hritik700
 
-Mobile responsive enhancements
-
-Cloud integration using Firebase or Supabase for persistent data
-
-Contributing
-Contributions and feedback are welcome.
-You can fork the repository and submit a pull request.
-
-License
-This project is open-source and available under the MIT License.
-
-Author
-Name: Harsh Sharma
-Email: hs123619@gmail.com
-GitHub: https://github.com/harsh-dev26
